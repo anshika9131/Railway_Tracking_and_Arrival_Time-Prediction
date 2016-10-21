@@ -1,0 +1,42 @@
+body{
+	background: url(Trainh.jpg) no-repeat 50% 50% fixed;
+	background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   -webkit-background-size: cover;
+}
+.main {
+	width: 960px; 
+	margin: 25px auto; 
+	background: url(pt.png); 
+	color: #ddd;padding: 15px
+}
+h2{
+	text-align: center;
+	text-overflow: none;
+}
+
+	ul{
+		list-style-type: none;
+		margin:0 auto;
+		padding: 0;
+		overflow: hidden;
+		text-align: center;
+	}
+		li{
+			float: left;
+		}
+	a:link,a:visited{
+		display: block;
+		front-weight:bold;
+		color: white;
+		background-color: black;
+		width: 220px;
+		text-align: center;
+		padding: 4px;
+		text-transform: uppercase;
+		text-decoration: none;
+	}
+	a:hover,a:active{
+		background-color: red;
+	}
