@@ -1,5 +1,5 @@
-body{
-	background: url(Trainh.jpg) no-repeat 50% 50% fixed;
+	body{
+	background: url(image/Trainh1.jpg) no-repeat 50% 50% fixed;
 	background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -15,7 +15,6 @@ h2{
 	text-align: center;
 	text-overflow: none;
 }
-
 	ul{
 		list-style-type: none;
 		margin:0 auto;
