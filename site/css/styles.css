@@ -16,27 +16,41 @@ h2{
 	text-align: center;
 	text-overflow: none;
 }
-	ul{
-		list-style-type: none;
+
+nav{
+
+	width: 750px;
+	margin: auto;
+}
+nav ul{
+
+	text-align: center;
+	padding: 0px;
+
+	list-style-type: none;
 		margin:0 auto;
-		padding: 0;
-		overflow: hidden;
-		text-align: center;
-	}
-		li{
-			float: left;
-		}
-	a:link,a:visited{
-		display: block;
-		front-weight:bold;
-		color: white;
-		background-color: black;
-		width: 220px;
-		text-align: center;
-		padding: 4px;
-		text-transform: uppercase;
-		text-decoration: none;
-	}
-	a:hover,a:active{
-		background-color: red;
-	}
+}
+nav li{
+	border: solid gray;
+	list-style-type: none;
+	width: 125px;
+	height: 35px;
+	line-height: 35px;
+	display: inline-block;
+
+	margin-left: 0px;
+	margin-right: 0px;
+}
+nav a{
+	background-color:  cyan;
+	display: block;
+	text-decoration: none;
+	color: black;
+}
+nav a:hover{
+	background-color: red;
+	color: black;
+}
+nav a:visited{
+	color: black;
+}
