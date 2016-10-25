@@ -1,10 +1,21 @@
+
+	
+
+
+
 	body{
-	background: url(../image/Trainh1.jpg) no-repeat 50% 50% fixed;
 		
+		
+	background: url(../image/Trainh1.jpg) no-repeat 50% 50% fixed;
+	
 	background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    -webkit-background-size: cover;
+   
+/*****
+   background: url(Trainh.jpg);
+  ****/ 
 }
 .main {
 	width: 960px; 
@@ -16,6 +27,8 @@ h2{
 	text-align: center;
 	text-overflow: none;
 }
+
+
 
 nav{
 
@@ -54,3 +67,4 @@ nav a:hover{
 nav a:visited{
 	color: black;
 }
+
